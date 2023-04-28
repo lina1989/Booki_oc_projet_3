@@ -151,15 +151,12 @@ form [id="icon"] {
     border-radius: 15px 0 0 15px;
 }
 
-input {
-    font-weight: 700;
-    font-size: 18px;
-}
-
 input[type="text"] {
     width: 147px;
     height: 20px;
     padding: 14px 24px;
+    font-weight: 700;
+    font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: #000000;
@@ -348,8 +345,15 @@ button[type="submit"] i {
     margin-bottom: 15px;
 }
 
-.hebergements h4{
-    margin: 30px 0 0 0;
+.hebergements h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.hebergements h4 a{
+    text-decoration: none;
+    color: #000000;
 }
 
 /****** Populaires ***********/
